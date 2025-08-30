@@ -14,6 +14,8 @@ export const metadata: Metadata = {
     title: "Saudi Explorer | Your Ultimate Saudi Arabia Travel Experience",
     description:
       "Discover the wonders of Saudi Arabia with our expertly crafted tour packages. From AlUla to the Red Sea, experience the best of Saudi Arabia with our all-inclusive travel services.",
+    url: "https://yourdomain.com", // Replace with your actual domain
+    siteName: "Saudi Explorer",
     images: [
       {
         url: "/images/social-share.png",
@@ -31,6 +33,18 @@ export const metadata: Metadata = {
     description:
       "Discover the wonders of Saudi Arabia with our expertly crafted tour packages. From AlUla to the Red Sea, experience the best of Saudi Arabia with our all-inclusive travel services.",
     images: ["/images/social-share.jpeg"],
+  },
+  // Additional metadata for better SEO
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 }
 
