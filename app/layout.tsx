@@ -10,7 +10,28 @@ export const metadata: Metadata = {
   title: "Saudi Explorer | Your Ultimate Saudi Arabia Travel Experience",
   description:
     "Discover the wonders of Saudi Arabia with our expertly crafted tour packages. From AlUla to the Red Sea, experience the best of Saudi Arabia with our all-inclusive travel services.",
-    generator: 'v0.app'
+  openGraph: {
+    title: "Saudi Explorer | Your Ultimate Saudi Arabia Travel Experience",
+    description:
+      "Discover the wonders of Saudi Arabia with our expertly crafted tour packages. From AlUla to the Red Sea, experience the best of Saudi Arabia with our all-inclusive travel services.",
+    images: [
+      {
+        url: "/images/social-share.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Saudi Explorer - Discover the wonders of Saudi Arabia",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Saudi Explorer | Your Ultimate Saudi Arabia Travel Experience",
+    description:
+      "Discover the wonders of Saudi Arabia with our expertly crafted tour packages. From AlUla to the Red Sea, experience the best of Saudi Arabia with our all-inclusive travel services.",
+    images: ["/images/social-share.jpeg"],
+  },
 }
 
 export default function RootLayout({
